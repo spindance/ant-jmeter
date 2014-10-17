@@ -2,6 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="var" path="ECLIPSE_HOME/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant.jar"/>
+	<classpathentry kind="lib" path="/usr/local/Cellar/ant/1.9.4/libexec/lib/ant.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -325,7 +325,7 @@ public class JMeterTask extends Task {
 		execute.setCommandline(cmd.getCommandline());
 		execute.setAntRun(getProject());
 
-		execute.setWorkingDirectory(new File(jmeterHome.getAbsolutePath() + File.separator + "bin"));
+		//execute.setWorkingDirectory(new File(jmeterHome.getAbsolutePath() + File.separator + "bin"));
 		log(cmd.describeCommand(), Project.MSG_VERBOSE);
 
 		try {
